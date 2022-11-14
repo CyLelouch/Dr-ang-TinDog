@@ -1,6 +1,12 @@
 #title{
     background-color: #ff4c68;
 }
+
+.container-fluid{
+    padding:3% 15%;
+
+}
+
 .h1Heading {
     
     line-height: 1.5;
