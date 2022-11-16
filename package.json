@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "bootstrap-icons": "^1.10.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "name": "tindog",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyLelouch/Dr-ang-TinDog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyLelouch/Dr-ang-TinDog/issues"
+  },
+  "homepage": "https://github.com/CyLelouch/Dr-ang-TinDog#readme"
+}
