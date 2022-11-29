@@ -1,5 +1,18 @@
+body {
+    
+}
+
+svg{
+    color: #ff4c68;
+    padding-bottom: 1rem;
+}
+svg:hover {
+    color: pink;
+}
+
 #title{
     background-color: #ff4c68;
+    color: #fff;
 }
 
 .container-fluid{
@@ -12,4 +25,93 @@
     line-height: 1.5;
     font-size: 3.4rem;
     font-weight: 1000;
+}
+@media only screen and (max-width: 600px) {
+    .h1Heading {
+      font-size: 40px;
+      font-weight: 800;
+      line-height: normal;
+      align-content: center;
+      text-align: center;
+      padding-bottom: 20px;
+      
+      
+    }
+  }
+
+.h3Heading {
+    font-size: 1.9rem;
+    font-weight: 800;
+}
+
+
+/*      navbar  */
+
+.navbar {
+    padding:0 0 4.5rem ;
+}
+@media only screen and (max-width: 600px) {
+    .navbar {
+      padding:0 0 40px;
+      
+    }
+    .navbar-brand {
+        font-family: "Ubuntu";
+        font-size: 18px;
+        font-weight:600;
+    
+    }
+  }
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight:800;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size:1.5rem;
+}
+
+/* buttons */
+
+.download-button {
+ margin: 5% 3% 5% 0%
+}
+
+/*  Title Image */
+.title-image {
+    position:  absolute;
+    width: 60%;
+    transform: rotate(25deg) ;
+    
+    
+}
+@media only screen and (max-width: 600px) {
+    .title-image {
+      position: relative;
+      width:60%;
+      transform: rotate(0deg);
+      
+    }
+  }
+
+/* features */
+
+#features{
+    padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.feature-box0 {
+    text-align: center;
+    padding: 5%;
 }
