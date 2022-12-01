@@ -43,7 +43,10 @@ svg:hover {
     font-size: 1.9rem;
     font-weight: 800;
 }
-
+.h2Heading {
+        font-size: 2.9rem;
+        font-weight: 800;  
+}
 
 /*      navbar  */
 
@@ -114,4 +117,28 @@ svg:hover {
 .feature-box0 {
     text-align: center;
     padding: 5%;
+}
+
+/*testimonials*/
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.img1{
+    border-radius: 100%;
+    width:30%;
+    margin:20px;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#press img{
+    width:15%;
+    margin: 20px 20px 50px;
 }
